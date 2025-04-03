@@ -4497,3 +4497,17 @@ html[dir=rtl] .tns-visually-hidden {
 .rtl\:text-end:where([dir="rtl"], [dir="rtl"] *){
   text-align: end !important;
 }
+/* SearchBar Component Styles - Added March 12, 2025 */
+#StarterContent {
+  position: relative;
+  z-index: 10; /* Ensure it sits above the hero background */
+}
+
+.filter-search-form .css-1nmdiq5-menu {
+  z-index: 9999; /* Ensure dropdown menu is above other elements */
+  position: absolute; /* Allow it to position freely */
+}
+
+.react-select__menu {
+  z-index: 9999 !important; /* Override any inline styles from react-select */
+}

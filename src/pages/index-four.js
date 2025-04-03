@@ -5,7 +5,7 @@ import Image from "../assets/images/hero.jpg";
 
 import Navbar from "../component/Navbar";
 import Client from "../component/Client";
-import Property from "../component/Properties/property";
+import Property from "../component/Properties/Property";
 import Footer from "../component/Footer";
 import About from "../component/About";
 import Feature from "../component/Feature";

@@ -5,7 +5,7 @@ import Navbar from '../component/Navbar'
 import BackgroundImage from "../assets/images/bg/bg2.png";
 
 import Categories from '../component/categories';
-import Property from '../component/Properties/property';
+import Property from '../component/Properties/Property';
 import Cta from '../component/cta';
 import Partner from '../component/partner';
 import Client from '../component/Client';

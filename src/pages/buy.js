@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../component/Navbar";
 
 import BackgroundImage from "../assets/images/bg/01.jpg";
-import Property from "../component/Properties/property";
+import Property from "../component/Properties/Property";
 import Feature from "../component/Feature";
 import Footer from "../component/Footer";
 import BuyTab from "../component/Buy-tab";
