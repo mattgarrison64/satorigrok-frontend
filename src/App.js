@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./assets/css/tailwind.css";
 import "./assets/css/icons.css";
@@ -13,10 +12,10 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
-      <AppRoutes /> {/* Use the routes component */}
-    </BrowserRouter>
+      <AppRoutes /> {/* No BrowserRouter here */}
+    </>
   );
 }
 

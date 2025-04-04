@@ -149,6 +149,7 @@ const SearchBar = ({ activeTabIndex, onSearch, currentPage, endpoint = "basic" }
           price_max: formData.maxPrice?.value || "",
           tab: tab,
           page: page,
+          standard_status: "Active",
         },
       });
       const { data, last_page, current_page } = response.data;
